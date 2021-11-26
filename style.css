@@ -47,3 +47,15 @@ nav ul li a {
 nav ul li a:hover {
   color: #ff3e3b;
 }
+
+.text-box {
+  margin-top: 16%;
+  font-size: 22px;
+}
+
+.text-box h1 {
+  font-size: 85px;
+  font-weight: 600;
+  line-height: 100px;
+  margin-bottom: 10px;
+}
