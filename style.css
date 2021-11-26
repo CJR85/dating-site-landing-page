@@ -86,4 +86,17 @@ nav ul li a:hover {
 .download i {
   width: 25px;
   margin-left: 15px;
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
